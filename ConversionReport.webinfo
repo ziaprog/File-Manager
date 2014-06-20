@@ -1,0 +1,22 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?LinkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file WebFileManager.vbproj at December 29 2010, 21:30:46.
+
+=========================ERRORS===================
+
+=========================WARNINGS=================
+Warning: If the base class of any of the code-behind classes declares page fields please add the 'CodeFileBaseClass' attribute in the corresponding Page.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Removed attribute Codebehind from file default.aspx.
+Access level of 'WebFileManager._default' changed to 'Partial' in file default.aspx.vb (Line 12).
+Removed comment lines before designplaceholder declaration from file default.aspx.vb.    default.aspx.vb (Line 22)
+Removed attribute Codebehind from file Global.asax.
+Added folder App_Code.
+Moved file Global.asax.vb to the App_Code\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Unable to convert user settings because user file D:\Documents and Settings\zia\VSWebCache\ZIA-LAPTOP\FileManager\WebFileManager.vbproj.user was not found.
+Removed file WebFileManager.vbproj.
+Project WebFileManager.vbproj has been converted successfully at December 29 2010, 21:30:49.

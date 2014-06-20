@@ -1,0 +1,1 @@
+<%@ Application Inherits="WebFileManager.Global" Language="VB" %>
